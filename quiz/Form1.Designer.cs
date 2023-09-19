@@ -31,38 +31,38 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.studentName1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.studentID1 = new System.Windows.Forms.TextBox();
+            this.gender1 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.listBox4 = new System.Windows.Forms.ListBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.gender2 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.studentID2 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.studentName2 = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.gender3 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.studentID3 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.studentName3 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.memo1 = new System.Windows.Forms.TextBox();
+            this.memo2 = new System.Windows.Forms.TextBox();
+            this.memo3 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -99,12 +99,12 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox1
+            // studentName1
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 41);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 31);
-            this.textBox1.TabIndex = 11;
+            this.studentName1.Location = new System.Drawing.Point(114, 41);
+            this.studentName1.Name = "studentName1";
+            this.studentName1.Size = new System.Drawing.Size(150, 31);
+            this.studentName1.TabIndex = 11;
             // 
             // label1
             // 
@@ -124,24 +124,24 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "label2";
             // 
-            // textBox2
+            // studentID1
             // 
-            this.textBox2.Location = new System.Drawing.Point(114, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(150, 31);
-            this.textBox2.TabIndex = 14;
+            this.studentID1.Location = new System.Drawing.Point(114, 89);
+            this.studentID1.Name = "studentID1";
+            this.studentID1.Size = new System.Drawing.Size(150, 31);
+            this.studentID1.TabIndex = 14;
             // 
-            // comboBox1
+            // gender1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.gender1.FormattingEnabled = true;
+            this.gender1.Items.AddRange(new object[] {
             "남자",
             "여자"});
-            this.comboBox1.Location = new System.Drawing.Point(114, 142);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(150, 33);
-            this.comboBox1.TabIndex = 24;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.gender1.Location = new System.Drawing.Point(114, 142);
+            this.gender1.Name = "gender1";
+            this.gender1.Size = new System.Drawing.Size(150, 33);
+            this.gender1.TabIndex = 24;
+            this.gender1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -151,15 +151,6 @@
             this.label7.Size = new System.Drawing.Size(60, 25);
             this.label7.TabIndex = 25;
             this.label7.Text = "label7";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(114, 203);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(150, 129);
-            this.listBox1.TabIndex = 30;
             // 
             // groupBox1
             // 
@@ -173,15 +164,43 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(111, 96);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(60, 25);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "label8";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(26, 96);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(60, 25);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "label6";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(46, 43);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(125, 29);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.listBox1);
+            this.groupBox2.Controls.Add(this.memo1);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.gender1);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.studentID1);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.studentName1);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Location = new System.Drawing.Point(27, 185);
@@ -193,13 +212,13 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.listBox4);
+            this.groupBox3.Controls.Add(this.memo2);
             this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Controls.Add(this.comboBox4);
+            this.groupBox3.Controls.Add(this.gender2);
             this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.studentID2);
             this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.textBox8);
+            this.groupBox3.Controls.Add(this.studentName2);
             this.groupBox3.Controls.Add(this.button8);
             this.groupBox3.Controls.Add(this.button9);
             this.groupBox3.Location = new System.Drawing.Point(375, 199);
@@ -208,15 +227,6 @@
             this.groupBox3.TabIndex = 35;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
-            // 
-            // listBox4
-            // 
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.ItemHeight = 25;
-            this.listBox4.Location = new System.Drawing.Point(114, 203);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(150, 129);
-            this.listBox4.TabIndex = 30;
             // 
             // label10
             // 
@@ -227,17 +237,17 @@
             this.label10.TabIndex = 25;
             this.label10.Text = "label10";
             // 
-            // comboBox4
+            // gender2
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.gender2.FormattingEnabled = true;
+            this.gender2.Items.AddRange(new object[] {
             "남자",
             "여자"});
-            this.comboBox4.Location = new System.Drawing.Point(114, 142);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(150, 33);
-            this.comboBox4.TabIndex = 24;
-            this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
+            this.gender2.Location = new System.Drawing.Point(114, 142);
+            this.gender2.Name = "gender2";
+            this.gender2.Size = new System.Drawing.Size(150, 33);
+            this.gender2.TabIndex = 24;
+            this.gender2.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
             // label11
             // 
@@ -248,12 +258,12 @@
             this.label11.TabIndex = 15;
             this.label11.Text = "label11";
             // 
-            // textBox7
+            // studentID2
             // 
-            this.textBox7.Location = new System.Drawing.Point(114, 89);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(150, 31);
-            this.textBox7.TabIndex = 14;
+            this.studentID2.Location = new System.Drawing.Point(114, 89);
+            this.studentID2.Name = "studentID2";
+            this.studentID2.Size = new System.Drawing.Size(150, 31);
+            this.studentID2.TabIndex = 14;
             // 
             // label12
             // 
@@ -264,12 +274,12 @@
             this.label12.TabIndex = 13;
             this.label12.Text = "label12";
             // 
-            // textBox8
+            // studentName2
             // 
-            this.textBox8.Location = new System.Drawing.Point(114, 41);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(150, 31);
-            this.textBox8.TabIndex = 11;
+            this.studentName2.Location = new System.Drawing.Point(114, 41);
+            this.studentName2.Name = "studentName2";
+            this.studentName2.Size = new System.Drawing.Size(150, 31);
+            this.studentName2.TabIndex = 11;
             // 
             // button8
             // 
@@ -293,13 +303,13 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.listBox2);
+            this.groupBox4.Controls.Add(this.memo3);
             this.groupBox4.Controls.Add(this.label3);
-            this.groupBox4.Controls.Add(this.comboBox2);
+            this.groupBox4.Controls.Add(this.gender3);
             this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.textBox3);
+            this.groupBox4.Controls.Add(this.studentID3);
             this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.textBox4);
+            this.groupBox4.Controls.Add(this.studentName3);
             this.groupBox4.Controls.Add(this.button4);
             this.groupBox4.Controls.Add(this.button5);
             this.groupBox4.Location = new System.Drawing.Point(709, 199);
@@ -308,15 +318,6 @@
             this.groupBox4.TabIndex = 36;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "groupBox4";
-            // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 25;
-            this.listBox2.Location = new System.Drawing.Point(114, 203);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(150, 129);
-            this.listBox2.TabIndex = 30;
             // 
             // label3
             // 
@@ -327,17 +328,17 @@
             this.label3.TabIndex = 25;
             this.label3.Text = "label3";
             // 
-            // comboBox2
+            // gender3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.gender3.FormattingEnabled = true;
+            this.gender3.Items.AddRange(new object[] {
             "남자",
             "여자"});
-            this.comboBox2.Location = new System.Drawing.Point(114, 142);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(150, 33);
-            this.comboBox2.TabIndex = 24;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.gender3.Location = new System.Drawing.Point(114, 142);
+            this.gender3.Name = "gender3";
+            this.gender3.Size = new System.Drawing.Size(150, 33);
+            this.gender3.TabIndex = 24;
+            this.gender3.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -348,12 +349,12 @@
             this.label4.TabIndex = 15;
             this.label4.Text = "label4";
             // 
-            // textBox3
+            // studentID3
             // 
-            this.textBox3.Location = new System.Drawing.Point(114, 89);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(150, 31);
-            this.textBox3.TabIndex = 14;
+            this.studentID3.Location = new System.Drawing.Point(114, 89);
+            this.studentID3.Name = "studentID3";
+            this.studentID3.Size = new System.Drawing.Size(150, 31);
+            this.studentID3.TabIndex = 14;
             // 
             // label5
             // 
@@ -364,12 +365,12 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "label5";
             // 
-            // textBox4
+            // studentName3
             // 
-            this.textBox4.Location = new System.Drawing.Point(114, 41);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(150, 31);
-            this.textBox4.TabIndex = 11;
+            this.studentName3.Location = new System.Drawing.Point(114, 41);
+            this.studentName3.Name = "studentName3";
+            this.studentName3.Size = new System.Drawing.Size(150, 31);
+            this.studentName3.TabIndex = 11;
             // 
             // button4
             // 
@@ -391,33 +392,29 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
-            // checkBox1
+            // memo1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(46, 43);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(125, 29);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.memo1.Location = new System.Drawing.Point(114, 202);
+            this.memo1.Multiline = true;
+            this.memo1.Name = "memo1";
+            this.memo1.Size = new System.Drawing.Size(150, 113);
+            this.memo1.TabIndex = 26;
             // 
-            // label6
+            // memo2
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(26, 96);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 25);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "label6";
+            this.memo2.Location = new System.Drawing.Point(114, 188);
+            this.memo2.Multiline = true;
+            this.memo2.Name = "memo2";
+            this.memo2.Size = new System.Drawing.Size(150, 113);
+            this.memo2.TabIndex = 27;
             // 
-            // label8
+            // memo3
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(111, 96);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 25);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "label8";
+            this.memo3.Location = new System.Drawing.Point(114, 188);
+            this.memo3.Multiline = true;
+            this.memo3.Name = "memo3";
+            this.memo3.Size = new System.Drawing.Size(150, 113);
+            this.memo3.TabIndex = 28;
             // 
             // Form1
             // 
@@ -448,37 +445,37 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private TextBox textBox1;
+        private TextBox studentName1;
         private Label label1;
         private Label label2;
-        private TextBox textBox2;
-        private ComboBox comboBox1;
+        private TextBox studentID1;
+        private ComboBox gender1;
         private Label label7;
-        private ListBox listBox1;
         private GroupBox groupBox1;
         private Label label8;
         private Label label6;
         private CheckBox checkBox1;
         private GroupBox groupBox2;
         private GroupBox groupBox3;
-        private ListBox listBox4;
         private Label label10;
-        private ComboBox comboBox4;
+        private ComboBox gender2;
         private Label label11;
-        private TextBox textBox7;
+        private TextBox studentID2;
         private Label label12;
-        private TextBox textBox8;
+        private TextBox studentName2;
         private Button button8;
         private Button button9;
         private GroupBox groupBox4;
-        private ListBox listBox2;
         private Label label3;
-        private ComboBox comboBox2;
+        private ComboBox gender3;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox studentID3;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox studentName3;
         private Button button4;
         private Button button5;
+        private TextBox memo1;
+        private TextBox memo2;
+        private TextBox memo3;
     }
 }

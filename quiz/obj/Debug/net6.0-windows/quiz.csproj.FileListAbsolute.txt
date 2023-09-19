@@ -1,0 +1,17 @@
+C:\Users\chaerim\source\repos\quiz\quiz\bin\Debug\net6.0-windows\quiz.exe
+C:\Users\chaerim\source\repos\quiz\quiz\bin\Debug\net6.0-windows\quiz.deps.json
+C:\Users\chaerim\source\repos\quiz\quiz\bin\Debug\net6.0-windows\quiz.runtimeconfig.json
+C:\Users\chaerim\source\repos\quiz\quiz\bin\Debug\net6.0-windows\quiz.dll
+C:\Users\chaerim\source\repos\quiz\quiz\bin\Debug\net6.0-windows\quiz.pdb
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.csproj.AssemblyReference.cache
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.Form1.resources
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.csproj.GenerateResource.cache
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.AssemblyInfoInputs.cache
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.AssemblyInfo.cs
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.csproj.CoreCompileInputs.cache
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.dll
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\refint\quiz.dll
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.pdb
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\quiz.genruntimeconfig.cache
+C:\Users\chaerim\source\repos\quiz\quiz\obj\Debug\net6.0-windows\ref\quiz.dll
